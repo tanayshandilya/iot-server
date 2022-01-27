@@ -1,0 +1,27 @@
+{
+  "name": "iot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanayshandilya/iot-server.git"
+  },
+  "keywords": [],
+  "author": "Tanay Shandilya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanayshandilya/iot-server/issues"
+  },
+  "homepage": "https://github.com/tanayshandilya/iot-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "coap": "^1.0.3"
+  }
+}
